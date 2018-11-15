@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+     x:Class="XamlStandardDemo.Features.XamlStandard"
+     xmlns:a="clr-namespace:Xamarin.Forms.Alias;assembly=Xamarin.Forms.Alias">
+    <ContentPage.Content>
+        <a:StackPanel Padding="0, 20, 0, 0" Orientation="Vertical" HorizontalOptions="Center">
+            <a:TextBlock Text="This is TextBlock / Label" Foreground="Red" x:Name="UITextBlock"/>
+            <a:TextBox Placeholder="This is TextBox / Entry"/>
+            <a:Button Text="This is Button / Button" BorderBrush="Red" Clicked="Handle_Clicked"/>
+            <a:ProgressRing HorizontalOptions="Fill" IsActive="true"/>
+            <a:ProgressBar Value="0.2"/>
+           <a:ToggleSwitch IsOn="true" HorizontalOptions="Center"/>
+            <a:ComboBox Title="This is Combobox / Picker"/>
+        </a:StackPanel>
+        
+    </ContentPage.Content>
+</ContentPage>

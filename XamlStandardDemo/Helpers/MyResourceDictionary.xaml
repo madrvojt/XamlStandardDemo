@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ResourceDictionary xmlns="http://xamarin.com/schemas/2014/forms"
+     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+     x:Class="XamlStandardDemo.Helpers.MyResourceDictionary">
+                <Color x:Key="NormalTextColor">Blue</Color>
+
+      <Style x:Key="LabelNormalStyle" TargetType="Label">
+        <Setter Property="TextColor" Value="{StaticResource NormalTextColor}" />
+      </Style>
+      <Style x:Key="MediumBoldText" TargetType="Button">
+        <Setter Property="FontSize" Value="Medium" />
+        <Setter Property="FontAttributes" Value="Bold" />
+      </Style>
+    
+</ResourceDictionary>
